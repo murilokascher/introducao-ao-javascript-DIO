@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #304d63;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #ed8975;
+    background-color: #f2d096;
+    color: #ed8975;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;    
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+#counter {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+
+.flex-container {
+    width: 99vw;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-border {
+    border: 4px solid #ed8975;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
